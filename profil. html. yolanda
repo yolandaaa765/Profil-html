@@ -1,145 +1,165 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profil Siswa - Yolanda Aurelia Putri</title>
-    <style>
-        *{
-            margin:0;
-            padding:0;
-            box-sizing:border-box;
-            font-family:'Segoe UI', sans-serif;
-        }
-        body{
-            background: linear-gradient(135deg, #d8e9d0, #f4f9f1);
-            padding:30px;
-        }
-        .card{
-            max-width:900px;
-            margin:auto;
-            background:white;
-            border-radius:20px;
-            overflow:hidden;
-            box-shadow:0 10px 25px rgba(0,0,0,0.15);
-        }
-        .header{
-            background:#8fbf7f;
-            color:white;
-            text-align:center;
-            padding:40px 20px;
-        }
-        .header img{
-            width:170px;
-            height:170px;
-            border-radius:50%;
-            border:5px solid white;
-            object-fit:cover;
-            margin-bottom:15px;
-        }
-        .header h1{
-            font-size:32px;
-        }
-        .header p{
-            margin-top:8px;
-            font-size:18px;
-        }
-        .content{
-            padding:30px;
-        }
-        .section{
-            margin-bottom:25px;
-        }
-        .section h2{
-            color:#6d9c5f;
-            border-left:6px solid #8fbf7f;
-            padding-left:10px;
-            margin-bottom:10px;
-        }
-        .info{
-            display:grid;
-            grid-template-columns:150px auto;
-            gap:10px;
-        }
-        .info p{
-            padding:5px 0;
-        }
-        .hobi{
-            display:flex;
-            gap:15px;
-            flex-wrap:wrap;
-        }
-        .badge{
-            background:#d8e9d0;
-            color:#4f6f45;
-            padding:10px 18px;
-            border-radius:20px;
-            font-weight:bold;
-        }
-        .quote{
-            background:#f1f8ed;
-            padding:20px;
-            border-radius:12px;
-            font-style:italic;
-            text-align:center;
-            color:#4f6f45;
-        }
-        footer{
-            background:#8fbf7f;
-            color:white;
-            text-align:center;
-            padding:15px;
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Profil Yolanda Aurelia Putri</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background:#eaf4e2;
+    padding:20px;
+}
+
+.container{
+    max-width:900px;
+    margin:auto;
+    background:white;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 4px 15px rgba(0,0,0,0.15);
+}
+
+.header{
+    background:#8fbf7f;
+    color:white;
+    text-align:center;
+    padding:30px;
+}
+
+.header img{
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    object-fit:cover;
+    border:4px solid white;
+    margin-bottom:10px;
+}
+
+.section{
+    padding:25px;
+}
+
+.section h2{
+    color:#5f8d4e;
+    margin-bottom:10px;
+    border-bottom:2px solid #8fbf7f;
+    padding-bottom:5px;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:10px;
+}
+
+table, th, td{
+    border:1px solid #ccc;
+}
+
+th{
+    background:#8fbf7f;
+    color:white;
+}
+
+th, td{
+    padding:10px;
+}
+
+ul{
+    margin-left:20px;
+}
+
+.quote{
+    background:#f3f9ef;
+    padding:15px;
+    border-left:5px solid #8fbf7f;
+    border-radius:5px;
+}
+
+.footer{
+    background:#8fbf7f;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
+</style>
 </head>
+
 <body>
-<div class="card">
+
+<div class="container">
+
     <div class="header">
-        <img src="foto.jpg" alt="Foto Yolanda">
+        <img src="foto.jpg" alt="Foto Profil">
         <h1>Yolanda Aurelia Putri</h1>
         <p>Siswi SMKS Yannas Husada Bangkalan</p>
     </div>
-    <div class="content">
-        <div class="section">
-            <h2>Tentang Saya</h2>
-            <p>
-                Halo! Perkenalkan, saya Yolanda Aurelia Putri, siswi kelas X-B Farmasi
-                dari SMKS Yannas Husada Bangkalan. Saya merupakan pribadi yang disiplin,
-                semangat belajar, dan selalu berusaha mengembangkan kemampuan untuk
-                meraih masa depan yang lebih baik.
-            </p>
-        </div>
-        <div class="section">
-            <h2>Data Diri</h2>
-            <div class="info">
-                <p><b>Nama</b></p>
-                <p>: Yolanda Aurelia Putri</p>
-                <p><b>Sekolah</b></p>
-                <p>: SMKS Yannas Husada Bangkalan</p>
-                <p><b>Kelas</b></p>
-                <p>: X-B Farmasi</p>
-                <p><b>Cita-cita</b></p>
-                <p>: Apoteker</p>
-            </div>
-        </div>
-        <div class="section">
-            <h2>Hobi</h2>
-            <div class="hobi">
-                <div class="badge">🎨 Menggambar</div>
-                <div class="badge">🎤 Bernyanyi</div>
-            </div>
-        </div>
-        <div class="section">
-            <h2>Tujuan Hidup</h2>
-            <div class="quote">
-                "Saya ingin menjadi seorang apoteker dan menjadi orang yang sukses,
-                sehingga dapat membanggakan orang tua serta bermanfaat bagi banyak orang."
-            </div>
+
+    <div class="section">
+        <h2>Tentang Saya</h2>
+        <p>
+            Halo! Perkenalkan, saya Yolanda Aurelia Putri. Saya adalah siswi kelas X-B Farmasi
+            di SMKS Yannas Husada Bangkalan. Saya memiliki semangat belajar yang tinggi dan
+            selalu berusaha menjadi pribadi yang lebih baik setiap hari.
+        </p>
+    </div>
+
+    <div class="section">
+        <h2>Data Diri</h2>
+
+        <table>
+            <tr>
+                <th>Informasi</th>
+                <th>Keterangan</th>
+            </tr>
+            <tr>
+                <td>Nama</td>
+                <td>Yolanda Aurelia Putri</td>
+            </tr>
+            <tr>
+                <td>Sekolah</td>
+                <td>SMKS Yannas Husada Bangkalan</td>
+            </tr>
+            <tr>
+                <td>Kelas</td>
+                <td>X-B Farmasi</td>
+            </tr>
+            <tr>
+                <td>Cita-cita</td>
+                <td>Apoteker</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="section">
+        <h2>Hobi</h2>
+        <ul>
+            <li>Menggambar</li>
+            <li>Bernyanyi</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Cita-cita & Motivasi</h2>
+
+        <div class="quote">
+            Saya bercita-cita menjadi seorang apoteker dan ingin menjadi orang yang sukses,
+            membanggakan orang tua, serta bermanfaat bagi banyak orang.
         </div>
     </div>
-    <footer>
-        © 2026 Profil Siswa - Yolanda Aurelia Putri
-    </footer>
+
+    <div class="footer">
+        © 2026 Profil Yolanda Aurelia Putri
+    </div>
+
 </div>
 
 </body>
